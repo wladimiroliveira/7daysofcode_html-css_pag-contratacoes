@@ -1,43 +1,15 @@
 body {
     background-color: var(--base);
-}
-
-.navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.5rem 10rem;
-}
-
-.navigation__menu {
-    display: flex;
-    gap: 2rem;
-}
-
-.navigation__menu__item {
     font-family: var(--font-principal);
-    font-size: 1rem;
-    color: var(--cinza);
-    font-weight: 500;
-    text-decoration: none;
-    transition: all .2s;
 }
 
-.navigation__menu__item:hover {
-    color: var(--vermelho);
-}
-
-.navigation__login {
-    display: flex;
-    gap: 12px;
-}
+/* ITEMS */
 
 .botao {
     padding: 13px 23px;
     background-color: var(--vermelho);
     border-radius: 8px;
 
-    font-family: var(--font-principal);
     font-size: 1rem;
     color: var(--base);
     text-decoration: none;
@@ -54,4 +26,101 @@ body {
     background-color: transparent;
     box-shadow: none;
     color: var(--cinza);
+}
+
+/* HEADER */
+/* NAVIGATION */
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 10rem;
+}
+
+.navigation__menu {
+    display: flex;
+    gap: 2rem;
+}
+
+.navigation__menu__item {
+    font-size: 1rem;
+    color: var(--cinza);
+    font-weight: 500;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+.navigation__menu__item:hover {
+    color: var(--vermelho);
+}
+
+.navigation__login {
+    display: flex;
+    gap: 12px;
+}
+
+/* MAIN */
+/* ABOUT */
+
+.about {
+    padding: 10rem 31.25rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.about span {
+    color: var(--vermelho);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.about__title {
+    font-size: 3rem;
+    color: var(--azul);
+    font-weight: 600;
+}
+
+.text {
+    font-weight: 400;
+    color: var(--cinza);
+}
+
+.about__text {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+/* METRIC */
+
+.metric {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: center;
+}
+
+.metric__box {
+    margin: 0 2rem 0 0;
+}
+
+.metric__box__title {
+    font-size: 3.75rem;
+    font-weight: 600;
+    color: var(--vermelho);
+    margin: 0 0 12px 0;
+}
+
+.metric__box__subtitle {
+    font-size: 1.125rem;
+    color: var(--azul);
+    font-weight: 500;
+    margin: 0 0 10px 0;
+}
+
+.metric__box__text {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
 }
