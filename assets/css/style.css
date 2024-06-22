@@ -124,3 +124,36 @@ body {
     font-weight: 400;
     line-height: 24px;
 }
+
+/* VAGAS */
+
+.vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin: 96px 0;
+}
+
+.vagas span {
+    font-size: 0.875rem;
+    color: var(--vermelho);
+    font-weight: 500;
+    padding: 10px;
+    background-color: #8e242414;
+    border-radius: 16px;
+}
+
+.vagas__title {
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.vagas__text {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.vagas__img {
+    width: 70%;
+}
