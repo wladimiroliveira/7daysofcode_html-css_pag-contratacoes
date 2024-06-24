@@ -125,17 +125,17 @@ body {
     line-height: 24px;
 }
 
-/* VAGAS */
+/* ANUNCIO */
 
-.vagas {
+.anuncio {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    margin: 96px 0;
+    margin: 80px 0;
 }
 
-.vagas span {
+.anuncio span {
     font-size: 0.875rem;
     color: var(--vermelho);
     font-weight: 500;
@@ -144,16 +144,55 @@ body {
     border-radius: 16px;
 }
 
-.vagas__title {
+.anuncio__title {
     font-size: 2.25rem;
     font-weight: 600;
 }
 
-.vagas__text {
+.anuncio__text {
     font-size: 1.25rem;
     font-weight: 400;
 }
 
-.vagas__img {
+.anuncio__img {
     width: 70%;
+}
+
+/* VAGAS */
+
+.vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vagas__vaga {
+    /* border: 1px solid red; */
+    width: 45%;
+    margin-bottom: 4rem;
+}
+
+.vagas__vaga__title {
+    display: block;
+    color: var(--azul);
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.vagas__vaga__info {
+    padding: 1.5rem;
+    border: 1.5px solid var(--cinza-claro);
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.vagas__vaga__info__title {
+    display: block;
+    font-size: 1.125rem;
+    color: var(--azul);
+    margin-bottom: 3rem;
+}
+
+.vagas__vaga__info__data span {
+    margin-right: 1.5rem;
 }
