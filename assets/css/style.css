@@ -64,11 +64,12 @@ body {
 /* ABOUT */
 
 .about {
-    padding: 10rem 31.25rem;
+    padding: 0 31rem;
+    margin: 6rem 0;
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 1.5rem;
 }
 
 .about span {
@@ -99,6 +100,7 @@ body {
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
     justify-content: center;
+    margin-bottom: 6rem;
 }
 
 .metric__box {
@@ -132,7 +134,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    margin: 80px 0;
+    margin: 6rem 0;
 }
 
 .anuncio span {
@@ -195,4 +197,44 @@ body {
 
 .vagas__vaga__info__data span {
     margin-right: 1.5rem;
+}
+
+/* DEPOIMENTO */
+
+.depoimento {
+    text-align: center;
+    padding: 4rem;
+    background-color: #ec717117;
+    width: 70%;
+    margin: 0 auto 6rem auto;
+    border-radius: 16px;
+}
+
+.depoimento__chamada {
+    display: block;
+    font-size: 0.875rem;
+    color: var(--vermelho);
+    font-weight: 500;
+    margin-bottom: 1rem;
+    border-radius: 16px;
+}
+
+.depoimento__title {
+    font-size: 2.25rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: var(--azul);
+}
+
+.depoimento__colab__nome {
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 10px 0;
+    color: var(--azul);
+}
+.depoimento__colab__cargo {
+    display: block;
+    color: var(--cinza);
+    margin
 }
