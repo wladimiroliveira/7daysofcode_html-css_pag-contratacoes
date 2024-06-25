@@ -13,7 +13,7 @@ body {
     font-size: 1rem;
     color: var(--base);
     text-decoration: none;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.117);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.226);
     font-weight: 500;
     transition: all .2s;
 }
@@ -236,5 +236,59 @@ body {
 .depoimento__colab__cargo {
     display: block;
     color: var(--cinza);
-    margin
+}
+
+/* RODAPE */
+
+footer {
+    padding: 6rem 0;
+    background-color: var(--gray-clear);
+}
+
+.rodape {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.rodape__title {
+    font-size: 2.25rem;
+    color: var(--azul);
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+
+.rodape__text {
+    margin-bottom: 40px;
+    font-size: 1.25rem;
+}
+
+.rodape__input__input {
+    padding: 16px 16px;
+    border-radius: 8px;
+    border: 1px solid var(--cinza-claro);
+    width: 330px;
+    margin-bottom: 2rem;
+}
+
+.rodape__input__input::placeholder {
+    color: var(--cinza);
+    font-size: 1rem;
+}
+
+.rodape__input__button {
+    border: none;
+    border-radius: 8px;
+    margin-left: 6px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.rodape__input__button:hover {
+    cursor: pointer;
+}
+
+.rodape__copy {
+    color: #98A2B3;
+
 }
