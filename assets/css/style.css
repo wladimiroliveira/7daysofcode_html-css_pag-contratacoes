@@ -3,6 +3,7 @@
 @import url("reset.css");
 @import url("header.css");
 @import url("sobre.css");
+@import url("metas.css");
 
 :root {
     --preto: black;
@@ -12,6 +13,7 @@
     --cinza: #667085;
     --cinza-escuro: #3A404E;
     --vermelho: #8E2424;
+    --azul-escuro: #101828;
 
     --font-principal: 'Inter', sans-serif;
 }
