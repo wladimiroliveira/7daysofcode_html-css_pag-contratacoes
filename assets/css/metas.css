@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 70vw;
     text-align: center;
-    margin: 4rem auto;
+    margin: 6rem auto;
     gap: 32px;
     justify-content: center;
     align-items: center;
@@ -38,6 +38,7 @@
         flex-wrap: wrap;
         align-items: normal;
         text-align: left;
+        margin: 8rem auto;
     }
 
     .metas__item__titulo {
@@ -48,6 +49,5 @@
 @media screen and (min-width: 1728px) {
     .metas {
         width: 80vw;
-        padding: 4rem 0 0 0;
     }
 }

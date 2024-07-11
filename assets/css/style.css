@@ -4,12 +4,13 @@
 @import url("header.css");
 @import url("sobre.css");
 @import url("metas.css");
+@import url("talentos.css");
 
 :root {
     --preto: black;
     --branco: white;
     --salmao: #FFECEC;
-    --salmao-hover: #ebbebe;
+    --salmao-hover: #e3d4d4;
     --cinza: #667085;
     --cinza-escuro: #3A404E;
     --vermelho: #8E2424;
@@ -24,6 +25,18 @@ body {
     color: var(--preto);
 }
 
-.none {
-    display: none;
+.tag {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.titulo {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.texto {
+    line-height: 24px;
+    color: var(--cinza);
 }

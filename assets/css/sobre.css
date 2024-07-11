@@ -3,30 +3,14 @@
     flex-direction: column;
     align-items: center;
     width: 86vw;
-    margin: 4rem auto;
+    margin: 6rem auto;
     gap: 1rem;
     text-align: center;
 }
 
-.tag {
-    font-size: 0.75rem;
-    font-weight: 600;
-    color: var(--vermelho);
-}
-
-.titulo {
-    font-weight: 600;
-    font-size: 2rem;
-}
-
-.texto {
-    line-height: 24px;
-    color: var(--cinza);
-}
-
 @media screen and (min-width: 1024px) {
     .sobre {
-        margin: 4rem auto;
+        margin: 4rem auto 8rem auto;
         width: 80vw;
         gap: 2rem;
     }
