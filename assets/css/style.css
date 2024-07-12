@@ -5,6 +5,7 @@
 @import url("sobre.css");
 @import url("metas.css");
 @import url("talentos.css");
+@import url("vagas.css");
 
 :root {
     --preto: black;
@@ -12,6 +13,7 @@
     --salmao: #FFECEC;
     --salmao-hover: #e3d4d4;
     --cinza: #667085;
+    --cinza-claro: #EAECF0;
     --cinza-escuro: #3A404E;
     --vermelho: #8E2424;
     --azul-escuro: #101828;
