@@ -1,0 +1,36 @@
+.talentos {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80vw;
+    margin: 8rem auto;
+}
+
+.talentos__imagem {
+    display: none;
+}
+
+.talentos__tag {
+    background-color: var(--salmao);
+    padding: 12px;
+    border-radius: 24px;
+}
+
+@media screen and (min-width: 1024px) {
+    .talentos__imagem {
+        display: block;
+        width: 80vw;
+        margin: 4rem;
+        border-radius: 24px;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.146);
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .talentos__imagem {
+        width: 60vw;
+    }
+}

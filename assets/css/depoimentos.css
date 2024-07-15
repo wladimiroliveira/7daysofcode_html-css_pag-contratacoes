@@ -1,0 +1,55 @@
+.depoimento {
+    width: 80vw;
+    margin: 6rem auto;
+    text-align: center;
+    background-color: var(--salmao);
+    border-radius: 24px;
+}
+
+.depoimento__container {
+    padding: 3rem;
+}
+
+.depoimento__tag {
+    font-size: 0.75rem;
+}
+
+.depoimento__titulo {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 2rem 0;
+}
+
+.depoimento__pessoa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.depoimento__pessoa__avatar {
+    margin: 0 0 1rem 0;
+}
+
+.depoimento__pessoa__nome {
+    margin: 0 0 8px 0;   
+}
+
+.depoimento__pessoa__profi {
+    color: var(--cinza);
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .depoimento__titulo {
+        font-size: 2.25rem;
+        line-height: 44px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .depoimento {
+        width: 60vw;
+    }
+}

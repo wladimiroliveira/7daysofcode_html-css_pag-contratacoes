@@ -1,0 +1,47 @@
+.vagas {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: 6rem auto;
+    gap: 4rem;
+}
+
+.vagas__item {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.vagas__item__titulo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--azul-escuro);
+}
+
+.vagas__cargo {
+    border: 1px solid var(--cinza-claro);
+    padding: 1.5rem;
+    border-radius: 24px;
+}
+
+.vagas__cargo__titulo {
+    margin-bottom: 2rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.vagas__cargo__periodo {
+    margin-right: 1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .vagas {
+        width: 70vw;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .vagas {
+        width: 60vw;
+    }
+}
