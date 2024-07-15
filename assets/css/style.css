@@ -8,6 +8,7 @@
 @import url("talentos.css");
 @import url("vagas.css");
 @import url("depoimentos.css");
+@import url("rodape.css");
 
 :root {
     --preto: black;
@@ -16,6 +17,8 @@
     --salmao-hover: #e3d4d4;
     --cinza: #667085;
     --cinza-claro: #EAECF0;
+    --cinza-claro-light: #F9FAFB;
+    --cinza-claro-copy: #98a2b3;
     --cinza-escuro: #3A404E;
     --vermelho: #8E2424;
     --azul-escuro: #101828;

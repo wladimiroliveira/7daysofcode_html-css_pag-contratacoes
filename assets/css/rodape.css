@@ -1,0 +1,67 @@
+.rodape {
+    background-color: var(--cinza-claro-light);
+    text-align: center;
+    padding: 96px 36px;
+}
+
+.rodape__titulo {
+    font-size: 2rem;
+    line-height: 44px;
+}
+
+.rodape__texto {
+    margin: 26px 0;
+}
+
+.rodape__copy {
+    display: block;
+    color: var(--cinza-claro-copy);
+    font-size: 12px;
+    margin: 26px 0 0 0;
+}
+
+.email__input {
+    width: 55%;
+    height: 48px;
+    padding: 0 1rem;
+    border-radius: 8px;
+    border: 1px solid var(--cinza-claro);
+}
+
+.email__input::placeholder {
+    font-family: var(--font-principal);
+    font-size: 1rem;
+    color: var(--cinza);
+}
+
+.email__botao {
+    border: none;
+    background-color: var(--vermelho);
+    font-size: 1rem;
+    color: white;
+    height: 48px;
+    padding: 0 1rem;
+    border-radius: 8px;
+    margin: 0 0 0 10px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape__titulo {
+        font-size: 2.25rem;
+    }
+
+    .rodape__texto {
+        font-size: 1.25rem;
+    }
+
+    .email__input {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .email__input {
+        width: 20%;
+    }
+}
